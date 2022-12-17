@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+}
+.left-bar{
+    margin-top: 17px;
+    margin-left: 30px;
+}
+.right-bar{
+    display: flex;
+    margin-top: 17px;
+    margin-right: 20px;
+    width: 25vw;
+    gap: 25px;
+    margin-right: 10px;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: wheat;
+}
+.second-content{
+    margin-top: 120px;
+    font-style:oblique;
+    display: flex;
+    height: 160vh;
+    justify-content: space-around;
+}
+.informatain-section{
+    margin-top: 8%;
+    width: 35vw;
+}
+.informatain::first-line{
+    margin-left: 20px;
+}
+.btn-section{
+    margin-top: 100px;
+}
+.btn{
+    color: wheat;
+    background-color: black;
+    height: 40px;
+    width: 125px;
+}
+.third-content{
+    height: 120vh;
+}
+.about-flex-boxes{
+    padding-top: 60px;
+    margin-left: 57px;
+}
+.flex-box{
+    margin-top: 5%;
+}
+.first-row{
+    height: 45vh;
+    width: 80vw;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.second-row{
+    width: 80vw;
+    margin-left: 130px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
